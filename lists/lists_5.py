@@ -24,7 +24,7 @@ def find_minimum(arr):
         return None
     
     minValue = arr[0]
-    for i in range(len(arr))[1:]:
+    for i in range(len(arr))[1:]: # iterating over the length of array
         if arr[i] < minValue:
             minValue = arr[i]
             
